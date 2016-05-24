@@ -1,0 +1,20 @@
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directory
+# https://docs.npmjs.com/misc/faq#should-i-check-my-node-modules-folder-into-git
+node_modules
+#private data
+resources/prepare.sh
+
+#project temp files
+.DC_Store
+.idea
