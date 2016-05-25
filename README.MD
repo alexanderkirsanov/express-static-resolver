@@ -3,6 +3,7 @@ If you have code in es6 and you don't want to babelify it for modern browsers yo
 
 ##Example
 ```javascript
+const resolverCreator = require('express-static-resolver');
 const resolver = createResolver({
     oldPath: express.static(path.join(__dirname, './static/old_static')),
     modernPath: express.static(path.join(__dirname, './static/new_static'))
