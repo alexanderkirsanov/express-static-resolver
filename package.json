@@ -6,8 +6,18 @@
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "lqip32",
+  "license": "MIT",
+  "keywords": [
+    "static",
+    "es6",
+    "es2015"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lqip32/express-static-resolverrstore.git"
+  },
+  "homepage": "https://github.com/lqip32/express-static-resolver#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.5.3",
